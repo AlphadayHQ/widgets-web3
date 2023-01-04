@@ -1,4 +1,8 @@
-import { Modal, ModalHeader, ModalTitle } from "../../../elements/modal/modal";
+import {
+  Modal,
+  ModalHeader,
+  ModalTitle,
+} from "../modalElements/modal";
 import styled from "../../../styles";
 import CONFIG from "../../../config";
 

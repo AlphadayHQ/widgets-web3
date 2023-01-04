@@ -10,7 +10,7 @@ import {
     StyledModalBody,
 } from "./AlphaDialog.style";
 
-export interface IModal {
+export interface IDialog {
     show: boolean;
     title: string;
     saveButtonText: string;
@@ -22,7 +22,7 @@ export interface IModal {
     size?: "xl" | "lg" | "md" | "sm";
     children?: React.ReactNode;
 }
-export const AlphaDialog: FC<IModal> = ({
+export const AlphaDialog: FC<IDialog> = ({
     children,
     title,
     onClose,

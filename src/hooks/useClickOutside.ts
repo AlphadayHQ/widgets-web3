@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, RefObject } from "react";
 
-const useClickOutside = <T extends HTMLElement>(
+export const useClickOutside = <T extends HTMLElement>(
     onClose: () => void,
     modalRef?: RefObject<T> // modals don't bubble click events to the document
 ): RefObject<T> => {
@@ -37,5 +37,3 @@ const useClickOutside = <T extends HTMLElement>(
     }, [escapeListener, clickListener, modalRef]);
     return ref;
 };
-
-export default useClickOutside;

@@ -3,7 +3,7 @@ import { FC } from "react";
 import { ReactComponent as CloseSVG } from "../../../assets/icons/close3.svg";
 import { StyledButton } from "./AlphaTabButton.style";
 
-export interface ButtonProps {
+export interface TabButtonProps {
   variant?: "primary" | "small" | "extraSmall" | "transparent" | "removable";
   open: boolean;
   disabled?: boolean;
@@ -16,7 +16,7 @@ export interface ButtonProps {
   children?: React.ReactNode;
 }
 
-export const AlphaTabButton: FC<ButtonProps> = ({
+export const AlphaTabButton: FC<TabButtonProps> = ({
   children,
   variant,
   open,

@@ -1,4 +1,4 @@
-import { TWidgetSlug, TTemplateSlug } from "./widgetContainertypes";
+import { TWidgetSlug, TTemplateSlug } from "./widgetContainer";
 import { TPagination, TRemoteTagReadOnly } from "./baseTypes";
 
 /**

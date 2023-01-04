@@ -13,14 +13,14 @@ import { ReactComponent as ArrowLeft } from "../../../assets/icons/chevron-left.
 import { ReactComponent as ArrowRight } from "../../../assets/icons/chevron-right.svg";
 import { ReactComponent as ArrowDown } from "../../../assets/icons/chevron-down.svg";
 
-export interface ButtonProps {
+export interface IconButtonProps {
   variant: TVariant;
   disabled?: boolean;
   label?: string;
   title?: string;
   onClick?: () => void | (() => Promise<void>);
 }
-interface StarProps extends Omit<ButtonProps, "variant"> {
+interface StarProps extends Omit<IconButtonProps, "variant"> {
   selected: boolean;
 }
 
@@ -56,7 +56,7 @@ const iconSelector = (variant: TVariant) => {
   return <></>;
 };
 
-export const AlphaIconButton: FC<ButtonProps> = ({
+export const AlphaIconButton: FC<IconButtonProps> = ({
   variant,
   disabled,
   label,

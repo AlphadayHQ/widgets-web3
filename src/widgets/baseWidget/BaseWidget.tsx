@@ -17,7 +17,7 @@ import { TKeyword, TTag, ETag } from "../../types/primitives";
 import {
   EWidgetSettingsRegistry,
   IWidgetContainer,
-} from "../../types/widgetContainertypes";
+} from "../../types/widgetContainer";
 import {
   ModuleWrapper,
   ModuleHeader,

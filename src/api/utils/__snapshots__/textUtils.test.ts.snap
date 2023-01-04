@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for text Utilities checks jsx.Element is created correctly from a string by parseText 1`] = `
+Array [
+  <span>
+    <span>
+      <span>
+        Yellow
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        Fever:
+        <br />
+        <br />
+      </span>
+      <span>
+        <br />
+        <br />
+      </span>
+      <span>
+        Required
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        if
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        arriving
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        from
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        <br />
+        <br />
+      </span>
+      <span>
+        -
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        Angola
+        <br />
+        <br />
+      </span>
+      <span>
+        -
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        Peru
+        <br />
+        <br />
+      </span>
+      <span>
+        -
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        Dominican
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        Republic.
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        <br />
+        <br />
+      </span>
+      <span>
+        <br />
+        <br />
+      </span>
+      <span />
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        Visit
+      </span>
+    </span>
+     
+  </span>,
+  <a
+    className="link"
+    href="https://www.who.int/publications-detail-redirect/9789241563871"
+    rel="noreferrer"
+    target="_blank"
+  >
+    https://www.who.in...
+  </a>,
+  <span>
+    <span>
+      <span>
+        or
+      </span>
+    </span>
+     
+  </span>,
+  <a
+    className="link"
+    href="https://www.sciencedirect.com/topics/immunology-and-microbiology/infectious-diseases"
+    rel="noreferrer"
+    target="_blank"
+  >
+    https://www.scienc...
+  </a>,
+  <span>
+    <span>
+      <span>
+        to
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        learn
+      </span>
+    </span>
+     
+  </span>,
+  <span>
+    <span>
+      <span>
+        more.
+      </span>
+    </span>
+     
+  </span>,
+]
+`;

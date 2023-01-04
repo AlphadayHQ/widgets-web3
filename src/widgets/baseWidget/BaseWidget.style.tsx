@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { CardBody, CardFooter } from "../../elements/card/card";
+import { CardBody, CardFooter } from "../../components/common/card/card";
 
 export const ModuleFlip = styled.div`
   .flip-inner {
