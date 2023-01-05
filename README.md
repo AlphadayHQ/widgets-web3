@@ -5,18 +5,18 @@ It is imported as an external library before building the live application in th
 
 This repo will progressively include more/all widgets in time.
 
-Current contents are:
+## Current contents are:
 
 - Portfolio widget
 - Connecft wallet funcionality
 - Verify wallet funcionality
 
-Requirements:
+## Requirements:
 
 * Node v16.x.x
 * yarn 1.22.x
 
-Set locally up with these steps:
+## Set locally up with these steps:
 
 1) cd into the `widgets` folder
 2) `npm install —global yarn`
