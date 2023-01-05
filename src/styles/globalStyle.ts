@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 import { device } from "./";
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -337,5 +337,3 @@ const GlobalStyle = createGlobalStyle`
     }
 
 `;
-
-export default GlobalStyle;

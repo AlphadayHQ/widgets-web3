@@ -1,10 +1,11 @@
-import {
+import styled, {
   createGlobalStyle,
   css,
   keyframes,
   ThemeProvider,
   DefaultTheme,
 } from "styled-components";
+import { themeGet } from "@styled-system/theme-get";
 import { darkTheme } from "./theme";
 
 export const breakpoints = [400, 576, 768, 992, 1200, 1400];
@@ -24,4 +25,14 @@ const themes: { [x: string]: DefaultTheme } = {
   dark: darkTheme,
 };
 
-export { createGlobalStyle, css, keyframes, ThemeProvider, darkTheme, themes };
+export {
+  createGlobalStyle,
+  css,
+  keyframes,
+  ThemeProvider,
+  darkTheme,
+  themes,
+  themeGet,
+};
+
+export default styled;
