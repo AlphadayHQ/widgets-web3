@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Alphaday Widgets Codebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository combines all public widget components and all web3 related functionality which the Alpahday app imports.
+It is imported as an external library before building the live application in the deployment process.
 
-## Available Scripts
+This repo will progressively include more/all widgets in time.
 
-In the project directory, you can run:
+Current contents are:
 
-### `yarn start`
+- Portfolio widget
+- Connecft wallet funcionality
+- Verify wallet funcionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Requirements:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Node v16.x.x
+* yarn 1.22.x
 
-### `yarn test`
+Set locally up with these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1) cd into the `widgets` folder
+2) `npm install —global yarn`
+3) `yarn`
+5) `yarn start` to start the development server
+6) `yarn build` to create/update the build folder
