@@ -1,5 +1,16 @@
 # Alphaday Widgets Codebase
 
+This repository combines all public widget components and all web3 related functionality which the Alpahday app imports.
+It is imported as an external library before building the live application in the deployment process.
+
+This repo will progressively include more/all widgets in time.
+
+Current contents are:
+
+- Portfolio widget
+- Connecft wallet funcionality
+- Verify wallet funcionality
+
 Requirements:
 
 * Node v16.x.x
